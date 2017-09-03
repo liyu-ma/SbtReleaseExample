@@ -1,0 +1,23 @@
+*.class
+*.log
+*.iml
+.DS_Store
+
+offer_feed/*.json
+search/node_modules/
+scripts/city-search-sam-packaged.yml
+
+# sbt specific
+.cache
+.history
+.idea
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Serverless directories
+.serverless
